@@ -7,7 +7,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://alex:96668842@cluster0.s9i9z.mongodb.net/Cluster0?retryWrites=true&w=majority"
+    "mongodb+srv://{token}"
   )
   .then(() => {
     console.log("Conectou ao banco!");
